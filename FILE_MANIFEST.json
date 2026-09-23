@@ -1,0 +1,136 @@
+{
+  "package": "BRIDGE",
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 148,
+      "sha256": "0fa406c0310f965a73de357327ba3985660edb29aac5a96d5bb699c6d8a86266"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 223,
+      "sha256": "4f2a7499d439228764721006f8cd925892d8f5a98010adcc64ebe7bfd1f574a7"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 360,
+      "sha256": "529dcfed7b831ccbb7f8d610f6da62f52d6e3ca58273ea1e08d7b2690e5bda36"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 711,
+      "sha256": "2bd05917df1f41cb0f918ae7f96e2072fa9bce5064a97e76f01acf63f59042e7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6131,
+      "sha256": "09a7262976b595859462a2d7df79783e87358f7dd3630bdc50818fa313a632a5"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 441,
+      "sha256": "86567c0095d9a7a3900d1a15aebb759a7c1b2accd4c1d19b1509f178444c51eb"
+    },
+    {
+      "path": "configs/datasets.yaml",
+      "bytes": 597,
+      "sha256": "734a98776d840320d92dd31147c6778eb7e9cbcf3995927d89da45fa2f78cdaa"
+    },
+    {
+      "path": "configs/qwen3_14b_six_datasets.yaml",
+      "bytes": 253,
+      "sha256": "51b3827e55a34bd7f5009084c4a34425de2b01092b3121e107d8bfd94ebde3ba"
+    },
+    {
+      "path": "docs/DATASETS.md",
+      "bytes": 1007,
+      "sha256": "503aa9826943d2af0d6e148fb93a1e52d7aa084c7b73a2c9ccd3c125ce02c479"
+    },
+    {
+      "path": "docs/ENVIRONMENT.md",
+      "bytes": 497,
+      "sha256": "7f119cb515d71396ceb488c58f55c8f2fe311c296f6a2716d923af696236f4fd"
+    },
+    {
+      "path": "docs/MODELS.md",
+      "bytes": 542,
+      "sha256": "a1792426ace66519b5354df3d9474794a2468c30f5a749356dc643d83d29ba51"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 583,
+      "sha256": "cb40cb2c52f8648d9f3f9b11d5cc548e158f659f56d63bd5c2781d95b6dbbf97"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 297,
+      "sha256": "3d5e2194a5c527e56b291afe333e2dd7e0bc1919f7e71a7d9b4190a6c4eb0578"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 518,
+      "sha256": "5f3565a9095a2f0a684e59d862953ab13fdfd83d23adbcb600436142f11cf520"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 116,
+      "sha256": "85e5e9a228550bc9bd348e3db702f85c2cb10b77bc2aa6242890ed233990f894"
+    },
+    {
+      "path": "scripts/download_datasets.py",
+      "bytes": 2368,
+      "sha256": "3a5e5e4ea812e44bdd9fa91a979d40381bee1559fe9c0b962bb87396fb35e751"
+    },
+    {
+      "path": "scripts/download_models.py",
+      "bytes": 1330,
+      "sha256": "c80ae70ee0c8c225161042894366694cd1fcdfb5300c05891814a58c4da1a66a"
+    },
+    {
+      "path": "scripts/run_six_dataset.sh",
+      "bytes": 623,
+      "sha256": "28a2fd8544461b54ee3cf3aa6cd4b970941e20da0bf7f5b021069cd26501b6be"
+    },
+    {
+      "path": "src/bridge/__init__.py",
+      "bytes": 95,
+      "sha256": "a999d773f69f8b1cd319e164f43ab6eb89a4d383818d7ee58c3ef56c3a051b86"
+    },
+    {
+      "path": "src/bridge/__main__.py",
+      "bytes": 76,
+      "sha256": "1a7d64ff02eb2b5fca4e51477af9578a7a303babcc50b127b16b2c2d1f1b86b7"
+    },
+    {
+      "path": "src/bridge/bridge_core.py",
+      "bytes": 74864,
+      "sha256": "0b35b550a142acb8dfedbe994021d320fb471313b985bf8ae0d71b51dba54bdd"
+    },
+    {
+      "path": "src/bridge/bridge_three_datasets.py",
+      "bytes": 20206,
+      "sha256": "be6b3b28a4e126c299af4ca7a11e2f37cb92bf22698dd3407e1e35103417d70b"
+    },
+    {
+      "path": "src/bridge/native_branch_utils.py",
+      "bytes": 3182,
+      "sha256": "38d3cd8d2b995b84bb2cf4827adeafc16dc4a9fdbaf15e2e55f8bdd5b0d99f72"
+    },
+    {
+      "path": "src/bridge/scorer.py",
+      "bytes": 735,
+      "sha256": "da7d8dd5c9cb4c56f0b6be4ccde5cf9b5fb962fa2876c361256601c32632b14b"
+    },
+    {
+      "path": "src/bridge/six_dataset_runner.py",
+      "bytes": 11158,
+      "sha256": "0381e1cfca64bb81f9a2f0a14c793c85fb23170154b027732f63f4519f776d25"
+    },
+    {
+      "path": "src/bridge/smoke_test.py",
+      "bytes": 588,
+      "sha256": "fd2b82c9122626d8a79bce02223919782036a0c47aa61e017ae9f910dc46fd90"
+    }
+  ]
+}

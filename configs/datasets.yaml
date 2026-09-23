@@ -1,0 +1,28 @@
+truthfulqa:
+  source: truthful_qa/multiple_choice
+  split: validation
+  path_env: BRIDGE_TRUTHFULQA
+mmlu:
+  source: cais/mmlu
+  config: all
+  split: test
+  path_env: BRIDGE_MMLU
+arc_easy:
+  source: allenai/ai2_arc
+  config: ARC-Easy
+  split: test
+  path_env: BRIDGE_ARC_EASY
+arc_challenge:
+  source: allenai/ai2_arc
+  config: ARC-Challenge
+  split: test
+  path_env: BRIDGE_ARC_CHALLENGE
+bbq:
+  source: heegyu/bbq or official NYU BBQ JSONL
+  split: test
+  path_env: BRIDGE_BBQ
+sorrybench:
+  source: sorry-bench/sorry-bench-202503
+  split: question.jsonl
+  gated: true
+  path_env: BRIDGE_SORRYBENCH

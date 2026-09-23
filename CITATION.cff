@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: BRIDGE
+message: "If you use this software, please cite the BRIDGE method and the upstream benchmark/model repositories."
+type: software
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-09-22
