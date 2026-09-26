@@ -20,13 +20,13 @@ ARC-Easy and ARC-Challenge are separate dataset configurations, not two labels f
 
 The experiments used these checkpoint families:
 
-| Local name | Hugging Face repository | Use |
+| Local name | Hugging Face repository | 
 |---|---|---|
-| Qwen3-8B-Base | `Qwen/Qwen3-8B-Base` | three-dataset runs |
-| Qwen3-14B-Base | `Qwen/Qwen3-14B-Base` | six-dataset pilot |
-| Qwen3-32B | `Qwen/Qwen3-32B` | larger-model validation |
-| Llama-3.1-8B | `meta-llama/Llama-3.1-8B` | model comparison |
-| Llama-2-13B | `NousResearch/Llama-2-13b-hf` | legacy comparison |
+| Qwen3-8B-Base | `Qwen/Qwen3-8B-Base` | 
+| Qwen3-14B-Base | `Qwen/Qwen3-14B-Base` | 
+| Qwen3-32B | `Qwen/Qwen3-32B` | 
+| Llama-3.1-8B | `meta-llama/Llama-3.1-8B` | 
+| Llama-2-13B | `NousResearch/Llama-2-13b-hf` | 
 
 Model weights are not included. Use `scripts/download_models.py` or your institution's approved mirror. Some Llama repositories are gated.
 
