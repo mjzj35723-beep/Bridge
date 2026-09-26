@@ -29,7 +29,7 @@ except ImportError:  # direct script execution
         quality_target, proposal_mass, early_branch_vector, tqa_prompt, load_model,
     )
 
-SEED = 20260914
+SEED = 17, 104729, 314159
 def clean(x): return " ".join(str(x).replace("\n", " ").split())
 def chat(tok, text):
     return tok.apply_chat_template([{"role":"user","content":clean(text)}], tokenize=False, add_generation_prompt=True)
