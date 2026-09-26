@@ -10,3 +10,4 @@ fit_fraction: 0.3333333333
 tau: 0.25
 residual_budget: 0.5
 max_linear_target_error: 0.5
+seed：17, 104729, 314159
