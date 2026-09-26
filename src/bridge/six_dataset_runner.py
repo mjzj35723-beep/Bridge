@@ -183,7 +183,7 @@ def main() -> None:
     p.add_argument("--dtype", choices=["float32", "bfloat16"], default="bfloat16")
     p.add_argument("--max-rows", type=int, default=6)
     p.add_argument("--fit-frac", type=float, default=1/3)
-    p.add_argument("--topk", type=int, default=16)
+    p.add_argument("--topk", type=int, default=5)
     p.add_argument("--rollout", type=int, default=8)
     p.add_argument("--early-layer", type=int, default=4)
     p.add_argument("--control-layer", type=int, default=16)
