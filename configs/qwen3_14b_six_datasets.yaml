@@ -2,7 +2,7 @@ model: Qwen3-14B-Base
 model_id: Qwen/Qwen3-14B-Base
 dtype: bfloat16
 device: cuda:0
-topk: 16
+topk: 5
 rollout: 8
 early_layer: 4
 control_layers: [12, 14, 16, 20]
